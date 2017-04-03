@@ -1,0 +1,91 @@
+/* Copyright (C) 2017  Sw4p */
+/* This program is free software: you can redistribute it and/or modify */
+/* it under the terms of the GNU General Public License as published by */
+/* the Free Software Foundation, either version 3 of the License, or */
+/* (at your option) any later version. */
+/* */
+/* This program is distributed in the hope that it will be useful, */
+/* but WITHOUT ANY WARRANTY; without even the implied warranty of */
+/* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the */
+/* GNU General Public License for more details. */
+/* */
+/* You should have received a copy of the GNU General Public License */
+/* along with this program.  If not, see <http://www.gnu.org/licenses/>. */
+/*  */
+/* @author Sw4p */
+#banner {
+    -fx-background-color: linear-gradient(from 40% 20% to 100% 50%, #F5F5F5, #A2E6FC);
+    -fx-background-radius: 0 0 4 4;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-border-color: top right bottom left;
+	-fx-border-color: rgba(0,0,0,0.6) transparent rgba(0,0,0,0.6) transparent;
+	-fx-border-radius: 0 0 2 2;
+}
+
+#chatBox {
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+}
+
+#createdCredits1 {
+	-fx-font-size: 9px;
+}
+
+#footer {
+    -fx-background-color: linear-gradient(from 37% 40% to 50% 100%, #A2E6FC, #F5F5F5);
+    -fx-background-radius: 4 4 0 0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-border-color: top right bottom left;
+	-fx-border-color: rgba(0,0,0,0.6) transparent rgba(0,0,0,0.6) transparent;
+	-fx-border-radius: 2 2 0 0;
+}
+
+#mainGrid {
+	-fx-background-color: linear-gradient(from 20% 25% to 100% 63%, #F5F5F5, #A2E6FC, #F5F5F5);
+}
+
+*.tab-header-background {
+	-fx-background-color: transparent;
+}
+
+.tab-pane {
+	-fx-background-color: rgba(80, 80, 80, 0.3);
+	-fx-background-radius: 4 4 4 4;
+	-fx-tab-min-width: 52px;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+	-fx-opacity: 0;
+}
+
+.tab {
+	-fx-background-insets: 0 1 0 1, 0, 0;
+}
+
+.tab:selected {
+	-fx-background-color: #f7f7f7;
+	-fx-border-radius: 0 0 0 0;
+	-fx-background-radius: 0 1 0 1;
+	-fx-focus-color: #828282;
+}
+
+.tab .tab-label {
+	-fx-alignment: CENTER;
+	-fx-text-fill: #828282;
+	-fx-font-size: 12px;
+	-fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+	-fx-alignment: CENTER;
+	-fx-text-fill: #828282;
+}
+
+.user.label .text {
+	-fx-font: 16px Tahoma;
+	-fx-fill: black;
+	-fx-stroke: grey;
+	-fx-stroke-width: 1px;
+	-fx-stroke-type: outside;
+}
+
